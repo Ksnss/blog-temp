@@ -40,6 +40,34 @@ header {
 .nav-logo {
   width: 300px;
   height: 175px;
+  color: #ffffff;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+    height: 25px;
+}
+.nav-list a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  width: 280px;
+  margin-bottom: 1px;
+  background-color: #252e38;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.nav-list a:hover {
+  background-color: #2d3844;
 }
 
 .flex-conteiner{
