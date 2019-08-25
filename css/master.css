@@ -72,6 +72,7 @@ header {
 
 .flex-conteiner{
   display: flex;
+  justify-content: space-between;
 }
 
 .blog-post {
@@ -83,7 +84,7 @@ header {
 main {
   width: 600px;
   background-color: #ede9dc;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 blockquote {
@@ -96,4 +97,14 @@ blockquote {
 
 .side-bar {
   color: #ede9dc;
+  width: 280px;
+}
+
+.blog-post-link {
+  color: #222a33;
+  font-style: italic;
+}
+
+p .blog-post-link {
+  font-style: normal;
 }
